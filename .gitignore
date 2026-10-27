@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+/data/
+/REQUIREMENTS.md
+.claude/
+dist/
+build/
+# Fixtures are generated deterministically by tests/fixtures/generator.py
+tests/fixtures/*.dbc
+tests/fixtures/*.dbc.bak
+tests/fixtures/*.dbf
+tests/fixtures/*.tmp
